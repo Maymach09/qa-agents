@@ -1,5 +1,18 @@
+
+# Python-generated files
+*.pyc
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
 .env
 output/
+.venv
+logs
 
 # Playwright
 node_modules/
