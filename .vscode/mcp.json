@@ -1,0 +1,8 @@
+{
+	"inputs": [],
+	"servers": {
+    "playwright": {
+      "url": "http://localhost:5174/mcp"
+    }
+  }
+}

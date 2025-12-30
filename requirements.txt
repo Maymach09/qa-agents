@@ -1,0 +1,11 @@
+langgraph
+langchain
+langchain-openai
+langchain-google-genai
+langsmith
+langchain-mcp-adapters
+langchain_community
+openai
+python-dotenv
+ipykernel
+playwright

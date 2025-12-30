@@ -1,0 +1,31 @@
+{
+  "name": "demoagents",
+  "version": "1.0.0",
+  "description": "QA Process Automation - Multi-Agent System for E2E test generation",
+  "main": "index.js",
+  "directories": {
+    "output": "output",
+    "tests": "tests"
+  },
+  "scripts": {
+    "save-auth": "tsc save-auth.ts --outDir . && node save-auth.js",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "codegen": "playwright codegen",
+    "postinstall": "patch-package"
+  },
+  "keywords": ["qa", "automation", "playwright", "testing", "ai-agents"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1",
+    "patch-package": "^8.0.1",
+    "playwright": "^1.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

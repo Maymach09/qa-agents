@@ -1,0 +1,19 @@
+Pages = """
+        1. Home Page.
+            url: https://computing-ability-8321.lightning.force.com/lightning/page/home
+
+        2. Accounts Page.
+            url: https://computing-ability-8321.lightning.force.com/lightning/o/Account/list?filterName=Recent
+
+        3. New Account form page.
+            url: https://computing-ability-8321.lightning.force.com/lightning/o/Account/new
+    """
+
+user_story = """
+        As a sales user, I want to be able to create and manage Accounts in the Salesforce application.
+        Acceptance Criteria:
+        User should be able to see home page upon login.
+        User should be able to navigate to the Accounts page from the home page by clicking on the 'Accounts' link in the main navigation menu.
+        User should be able to open the 'New' account form and add a New Account by filling out the account form by filling all the mandatory fields and submitting it.
+        User should be able to view the recently created Accounts in the Accounts list view.
+    """
